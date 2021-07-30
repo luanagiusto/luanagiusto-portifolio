@@ -59,6 +59,8 @@
 
 .container-item:nth-child(1){
     flex-grow: 3;
+    max-width: 680px;
+    
 
     margin: 40px 0px;
 }
@@ -73,6 +75,8 @@
 
     img{
         max-width: 400px;
+        display: none;
+        
     }
 }
 
@@ -167,7 +171,7 @@
 
 #bg-heroline2{
     //stroke-dasharray: 50 100 !important;
-   // animation: linha2 1s ease infinite alternate;
+   //animation: linha2 1s ease infinite alternate;
 }
 
 #bg-heroline3{
